@@ -7,8 +7,8 @@ import Main from "./container/Protected/Main";
 
 ReactDOM.render(
   <React.StrictMode>
-    {/* <Main /> */}
-    <App />
+    <Main />
+    {/* <App /> */}
   </React.StrictMode>,
   document.getElementById("root")
 );

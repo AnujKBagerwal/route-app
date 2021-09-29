@@ -19,6 +19,7 @@ import Account from "./container/Account";
 const App = () => {
   return (
     <>
+      {/* https://reactrouter.com/web/example/basic  */}
       <Router history={history}>
         <Header />
         <Switch>
@@ -41,7 +42,7 @@ const App = () => {
           {/* <Route path="*">
             <NoMatch />
           </Route> */}
-          <Redirect to="/0" />
+          {/* <Redirect to="/0" /> */}
         </Switch>
       </Router>
     </>

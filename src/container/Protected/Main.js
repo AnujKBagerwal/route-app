@@ -143,7 +143,6 @@ const Main = () => {
                 <Link to="/protected">Protected Page</Link>
               </li>
             </ul>
-
             <Switch>
               <Route path="/public">
                 <PublicPage />
